@@ -20,6 +20,7 @@ The script will try to detect the first non-bot response and draw your username 
 CONVERT FROM JANITOR
 
 **METHOD 1 (LEGACY, NOT RECOMMENDED)**
+
 Install the Instant Data Scraper for Chrome (https://chromewebstore.google.com/detail/instant-data-scraper/ofaokhiedipichpaobibbnahnkdoiiah).
 Open the desired chat and scroll up to the first post. Launch Instant Data Scraper, check "Infinite Scroll" and click "Start Crawling". 
 You may have to manually select a post to point the scraper in the right direction.
@@ -33,13 +34,17 @@ python sillytavern_chat_converter.py <PATH_TO_INPUT>.csv <PATH_TO_OUTPUT>.jsonl 
 This method is old and unreliable. If you choose to use it, I will not assist in data scraping or promise consistent results. 
 It is only recommended if you already have chatlogs in this format.
 
+
 **METHOD 2**
+
 Install JanitorAI Chat Downloader for Chrome (https://chromewebstore.google.com/detail/janitorai-chat-downloader/agcmemnhmffojajaaoloemjndnbijmam) and follow their instructions to download your chat history.
 Open the terminal/command prompt and convert the JSON file with this command:
 
 python sillytavern_chat_converter.py <PATH_TO_INPUT>.json <PATH_TO_OUTPUT>.jsonl --user_name <YOUR_USERNAME> (REQUIRED)
 
-**METHOD 3** 
+
+**METHOD 3** '
+
 Just use JanitorAI Chat Downloader's "Export as > SillyTavern Chat" function. The conversion method for this utility had already been written before I realized this exists.
 The output quality for both is similar, but JACD is faster.
 
