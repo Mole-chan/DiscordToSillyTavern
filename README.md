@@ -35,12 +35,14 @@ This method is old and unreliable. If you choose to use it, I will not assist in
 It is only recommended if you already have chatlogs in this format.
 
 
+
 **METHOD 2**
 
 Install JanitorAI Chat Downloader for Chrome (https://chromewebstore.google.com/detail/janitorai-chat-downloader/agcmemnhmffojajaaoloemjndnbijmam) and follow their instructions to download your chat history.
 Open the terminal/command prompt and convert the JSON file with this command:
 
 python sillytavern_chat_converter.py <PATH_TO_INPUT>.json <PATH_TO_OUTPUT>.jsonl --user_name <YOUR_USERNAME> (REQUIRED)
+
 
 
 **METHOD 3** '
