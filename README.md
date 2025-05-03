@@ -10,6 +10,7 @@ CONVERT FROM DISCORD
 
 Gather chat history from Discord using DiscordChatExporter(https://github.com/Tyrrrz/DiscordChatExporter). Export the history in JSON format. You may need to change the file extension to JSON.
 Open the terminal/command prompt and convert the JSON file with this command:
+
 python sillytavern_chat_converter.py <PATH_TO_INPUT>.json <PATH_TO_OUTPUT>.jsonl --user_name <YOUR_USERNAME> (optional)
 
 The script will try to detect the first non-bot response and draw your username from it. However, if it cannot determine which participant is a bot, it will ask for your username.
@@ -26,6 +27,7 @@ Once everything is scraped, download as CSV.
 Open the CSV and delete the columns "chakra-image src" and "chakra-image src 2". Rename the name column to "name". Rename the message columns "mes-1", "mes-2", "mes-3", etc.
 
 Open the terminal/command prompt and convert the CSV file with this command:
+
 python sillytavern_chat_converter.py <PATH_TO_INPUT>.csv <PATH_TO_OUTPUT>.jsonl --user_name <YOUR_USERNAME> (optional)
 
 This method is old and unreliable. If you choose to use it, I will not assist in data scraping or promise consistent results. 
@@ -34,6 +36,7 @@ It is only recommended if you already have chatlogs in this format.
 **METHOD 2**
 Install JanitorAI Chat Downloader for Chrome (https://chromewebstore.google.com/detail/janitorai-chat-downloader/agcmemnhmffojajaaoloemjndnbijmam) and follow their instructions to download your chat history.
 Open the terminal/command prompt and convert the JSON file with this command:
+
 python sillytavern_chat_converter.py <PATH_TO_INPUT>.json <PATH_TO_OUTPUT>.jsonl --user_name <YOUR_USERNAME> (REQUIRED)
 
 **METHOD 3** 
