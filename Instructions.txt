@@ -4,7 +4,7 @@ Before running this script, please run the command "pip install -r requirements.
 
 -----
 
-CONVERT FROM SHAPES
+CONVERT FROM DISCORD
 
 Gather chat history from Discord using DiscordChatExporter(https://github.com/Tyrrrz/DiscordChatExporter). Export the history in JSON format. You may need to change the file extension to JSON.
 Open the terminal/command prompt and convert the JSON file with this command:
